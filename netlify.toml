@@ -12,4 +12,5 @@ package = "@netlify/plugin-nextjs"
   NODE_VERSION = "18"
   NPM_VERSION = "9"
   SKIP_PRISMA_GENERATE = "true"
+PRISMA_CLIENT_ENGINE_TYPE = "binary"
 
