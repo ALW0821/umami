@@ -1,7 +1,10 @@
 [functions]
 included_files = ["node_modules/.geo/**"]
+node_bundler = "esbuild"
 
 [[plugins]]
 package = "@netlify/plugin-nextjs"
 
+[functions."keepalive"]
+   schedule = "0 12 * * 1,4"
 
